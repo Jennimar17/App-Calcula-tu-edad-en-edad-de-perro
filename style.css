@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+body {
+    font-family: 'Londrina Solid';
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+}
+
+.principal-container {
+    width: 900px;
+    height: 600px;
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #9e9fe5, #a1a4e8, #a5a9ec, #bca9ed, #d1a9eb, #e6a9e7, #f8a9e0);
+    padding: 0px;
+    display: flex;
+    margin-left: 200px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 18px 12px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: 10px 10px 18px 12px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 10px 10px 18px 12px rgba(0, 0, 0, 0.27);
+    color: white;
+}
+
+.img-dog-container {
+    width: 550px;
+    height: 300px;
+}
+
+.img-dog-container img {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.fuente {
+    text-align: center;
+    padding: 10px;
+}
+
+.app-container {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal-title {
+    width: 408px;
+    height: auto;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: -2px 3px 0 #bcbcbc;
+}
+
+.principal-title p {
+    margin-bottom: 10px
+}
+
+.principal-subtitle {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#edad {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Londrina Solid';
+    font-weight: 400;
+    font-size: 40px;
+    color: #d16ba5;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 10px;
+}
+
+#respuesta {
+    width: 100px;
+    height: auto;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #d16ba5;
+}
+
+.mini-form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit-buttom {
+    font-family: 'Londrina Solid';
+    border-radius: 10px;
+    border: 1px solid #C974B5;
+    background-color: #C974B5;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
